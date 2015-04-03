@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'd3.js' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose cache add [ 'd3.js', null ]
+5 verbose cache add name=undefined spec="d3.js" args=["d3.js",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'd3.js',
+6 verbose parsed url   path: 'd3.js',
+6 verbose parsed url   href: 'd3.js' }
+7 silly lockFile c1765fe5-d3-js d3.js
+8 verbose lock d3.js /Users/dtrouton/.npm/c1765fe5-d3-js.lock
+9 silly lockFile c1765fe5-d3-js d3.js
+10 silly lockFile c1765fe5-d3-js d3.js
+11 verbose addNamed [ 'd3.js', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 82dcbb94-d3-js d3.js@
+14 verbose lock d3.js@ /Users/dtrouton/.npm/82dcbb94-d3-js.lock
+15 silly addNameRange { name: 'd3.js', range: '*', hasData: false }
+16 verbose request where is /d3.js
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id db618f7d52178d3c
+19 verbose url raw /d3.js
+20 verbose url resolving [ 'https://registry.npmjs.org/', './d3.js' ]
+21 verbose url resolved https://registry.npmjs.org/d3.js
+22 verbose request where is https://registry.npmjs.org/d3.js
+23 info trying registry request attempt 1 at 18:02:03
+24 http GET https://registry.npmjs.org/d3.js
+25 info retry will retry, error on last attempt: Error: socket hang up
+26 info trying registry request attempt 2 at 18:03:56
+27 http GET https://registry.npmjs.org/d3.js
+28 http 404 https://registry.npmjs.org/d3.js
+29 verbose headers { date: 'Fri, 03 Apr 2015 17:04:04 GMT',
+29 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '51',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1428080644.013460,VS0,VE355',
+29 verbose headers   'keep-alive': 'timeout=10, max=50',
+29 verbose headers   connection: 'Keep-Alive' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Fri, 03 Apr 2015 17:04:04 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '51',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-lhr6325-LHR',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1428080644.013460,VS0,VE355',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile 82dcbb94-d3-js d3.js@
+32 silly lockFile 82dcbb94-d3-js d3.js@
+33 error 404 404 Not Found: d3.js
+33 error 404
+33 error 404 'd3.js' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404
+33 error 404 Maybe try 'npm search d3'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Darwin 14.1.0
+35 error command "node" "/usr/local/bin/npm" "install" "d3.js"
+36 error cwd /Users/dtrouton/webstuff/angularProj
+37 error node -v v0.10.34
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
